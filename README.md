@@ -36,7 +36,7 @@ There are two top level folders in this repository.
 ### cSharp
 Open the contents of the C# folder using Visual Studio and run the tests. (only tested in VS 2012)
 
-Nuget was used ton install dependencies and those packages may need to be restored before the solution will compile
+Nuget was used to install dependencies and those packages may need to be restored before the solution will compile
 
 ### javaScript
 A NodeJS script which is tested using Mocha and Chai. Change directory to this folder. Run `npm install` to bring in dependencies and then `mocha` to run the tests.
