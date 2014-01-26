@@ -1,0 +1,20 @@
+{
+  "name": "SimpleMathsParser",
+  "version": "0.0.1",
+  "description": "A simple maths parser exercise",
+  "main": "simpleMathsParser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauldambra/SimpleMathsParser"
+  },
+  "author": "Paul D'Ambra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauldambra/SimpleMathsParser/issues"
+  },
+  "homepage": "https://github.com/pauldambra/SimpleMathsParser",
+  "dependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.8.1"
+  }
+}
