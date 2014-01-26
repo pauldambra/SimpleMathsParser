@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace SimpleMathsParser
 {
@@ -12,7 +11,7 @@ namespace SimpleMathsParser
 
         public static int Parse(string input)
         {
-            var tokens = Regex.Split(input, "([abcdef])").Where(s=>!string.IsNullOrWhiteSpace(s)).ToArray();
+            var tokens = input.Tokenise();
             tokens = ProcessBracketsWithPrecedence(tokens);
             var total = CalculateTotalFromTokens(tokens);
             return total;
